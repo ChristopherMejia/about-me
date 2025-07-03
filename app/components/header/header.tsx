@@ -1,13 +1,9 @@
 import TabInfo from './tab_info';
 import OwnerName from './owner_name';
 import SocialMedia from './social_media';
+import type { IAppProps } from '~/interfaces/IHeader';
 
 import {Box, Grid } from '@mui/material';
-
-export interface IAppProps {
-  setActive : ( setActive: number) => void;
-  isActive : number;
-}
 
 
 export default function Header({setActive, isActive}:IAppProps){

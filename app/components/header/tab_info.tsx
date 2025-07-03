@@ -1,11 +1,7 @@
-import {Tabs, Tab, Box, Link, Button} from '@mui/material';
-import { useState } from 'react';
+import type { IAppProps } from '~/interfaces/IHeader';
 
-export interface IAppProps {
-  setActive : ( setActive: number) => void;
-  isActive : number;
+import {Tabs, Tab, Box} from '@mui/material';
 
-}
 
 export default function TabInfo({setActive, isActive}:IAppProps) {
     
