@@ -7,7 +7,7 @@ import { Container } from "@mui/material";
 
 export function Welcome() {
 
-  const [isActive, setActive] = useState<number>(1);
+  const [isActive, setActive] = useState<number>(0);
 
   return (
     <main className="justify-center pt-2 pb-2 pl-8 pr-8">
